@@ -1,0 +1,14 @@
+server:
+  applicationConnectors:
+    - type: http
+      port: 8084
+  adminConnectors:
+    - type: http
+      port: 8085
+
+slacker:
+  channel: "#slacker-test"
+  nodeStatusThrottleDurationSeconds: 10
+  screenName: "watcher"
+  iconUrl: "https://avatars3.githubusercontent.com/u/1101238"
+  webhookPath: ""
